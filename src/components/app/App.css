@@ -1,0 +1,9 @@
+.App {
+  font-family: "Slabo 27px", serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

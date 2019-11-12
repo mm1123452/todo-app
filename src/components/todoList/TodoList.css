@@ -1,0 +1,27 @@
+.todoApp {
+	margin-top: 5em;
+	padding: 2em;
+	background-color: #d8a1b9;
+	background-color: #eeb8cf;
+	color: #ffffff;
+	border-radius: 5px;
+	width: 40%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.todoApp-title {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 2.5em;
+	background-color: #355e3b;
+	color: white;
+	padding: 0.5em 0.75em;
+	border-radius: 15px;
+}
+
+.todoApp-list {
+	background-color: #ffffff;
+	margin-top: 1em;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

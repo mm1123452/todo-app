@@ -1,0 +1,78 @@
+.divider {
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.divider:last-child {
+	border-bottom: none;
+}
+
+.todoForm-items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.todo-edit-input {
+	height: 2.5em;
+	border-radius: 5px;
+	border: none;
+	flex: 3;
+	margin: 0.2em;
+	font-size: 1rem;
+}
+
+.todo-edit-input:focus {
+	outline: none !important;
+
+	/*box-shadow: 0 0 10px #719ECE;*/
+	border: 2px solid #eeb8cf;
+}
+
+.todo-edit-button {
+	margin: 0.2em;
+	display: inline-block;
+	padding: 0.2em 0.4em;
+	background-color: #355e3b;
+	color: white;
+	font-size: 0.8rem;
+	border-radius: 5px;
+	border: none;
+	margin-left: 0.5em;
+	flex: 1;
+}
+
+.todo-item {
+	color: black;
+	display: flex;
+}
+
+.todo-item-text.todo-item-completed {
+	text-decoration: line-through;
+}
+
+.todo-item-text {
+	text-align: left;
+	padding: 0.5em;
+	margin: 0;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	flex: 3;
+	text-decoration: none;
+}
+.todo-item-buttons {
+	padding: 0.5em;
+	flex: 1;
+}
+.todo-item-buttons i {
+	padding: 0.4em;
+}
+
+.todo-item-edit {
+	padding: 0.2em;
+	color: #c19a6b;
+}
+
+.todo-item-delete {
+	color: red;
+}
