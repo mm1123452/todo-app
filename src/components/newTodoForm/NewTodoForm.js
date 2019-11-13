@@ -20,8 +20,12 @@ class NewTodoForm extends Component {
 
 	handleSubmit(evt) {
 		evt.preventDefault()
-		this.props.addTodo({...this.state, id: uuid()})
-		this.setState({todo:""})
+
+		if (this.state.todo.trim() !== "") {
+			this.props.addTodo({...this.state, id: uuid()})
+			this.setState({todo:""})
+		} 
+		
 	}
 
 	render() {
