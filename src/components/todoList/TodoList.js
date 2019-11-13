@@ -24,8 +24,11 @@ class TodoList extends Component {
 	}
 
 	componentDidMount() {
-		let todos = localStorage.getItem('todoList')
-		this.setState({todos: JSON.parse(todos)})
+		const todos = localStorage.getItem('todoList')
+
+		if (todos !== null) {
+			this.setState({todos: JSON.parse(todos)})
+		}		
 	}
 
 	addTodo(todo) {
