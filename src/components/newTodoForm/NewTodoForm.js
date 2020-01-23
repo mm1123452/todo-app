@@ -42,7 +42,9 @@ class NewTodoForm extends Component {
 					onChange={this.handleChange}
 					placeholder="Ex. Do Laundry">
 					</input>
-					<button className="todoForm-button">Add </button>
+					<div className="todoForm-button-wrapper">
+						<button className="todoForm-button">Add </button>
+					</div>
 				</div>
 			</form>
 		)

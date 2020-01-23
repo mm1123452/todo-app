@@ -1,10 +1,13 @@
-
+.todoForm {
+	width: 80%;
+}
 .todoForm-label {
 	display: block;
 	text-align: left;
-	font-size: 1.2rem;
+	font-size: 1.8rem;
 	font-weight: 600;
 	letter-spacing: 1.5px;
+	padding-bottom: 0.5rem;
 }
 
 .todoForm-items {
@@ -13,28 +16,36 @@
 }
 
 .todoForm-input {
+	font-size: 1.4rem;
 	height: 2.5em;
 	border-radius: 5px;
 	border: none;
-	flex: 3;
-	margin: 0.2em;
+	flex-basis: 100%;
+	padding-left: 0.75rem;
 }
 
 .todoForm-input:focus {
 	outline: red;
 }
 
+.todoForm-button-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
 .todoForm-button {
-	margin: 0.2em;
+	margin: 1em 0.5em 0.5em;
 	display: inline-block;
 	padding: 0.6em 1.5em;
 	background-color: #355e3b;
 	color: white;
-	font-size: 0.8rem;
 	font-weight: 700;
 	border-radius: 5px;
 	border: none;
 	margin-left: 0.5em;
-	flex: 1;
+	flex-basis: 60%;
+
+	font-size: 1.4rem;
 	text-transform: uppercase;
 }

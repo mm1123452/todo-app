@@ -19,13 +19,11 @@
 	border: none;
 	flex: 3;
 	margin: 0.2em;
-	font-size: 1rem;
+	font-size: 1.4rem;
 }
 
 .todo-edit-input:focus {
 	outline: none !important;
-
-	/*box-shadow: 0 0 10px #719ECE;*/
 	border: 2px solid #eeb8cf;
 }
 
@@ -45,6 +43,8 @@
 .todo-item {
 	color: black;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .todo-item-text.todo-item-completed {
@@ -55,15 +55,12 @@
 	text-align: left;
 	padding: 0.5em;
 	margin: 0;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	letter-spacing: 1px;
+	word-break: break-word;
 	flex: 3;
-	text-decoration: none;
 }
-.todo-item-buttons {
-	padding: 0.5em;
-	flex: 1;
-}
+
 .todo-item-buttons i {
 	padding: 0.4em;
 }
